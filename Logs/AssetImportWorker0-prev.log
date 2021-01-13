@@ -1,0 +1,258 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Owner/Simon
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60689
+Successfully changed project path to: C:/Users/Owner/Simon
+C:/Users/Owner/Simon
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Owner/Simon/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     16347 MB
+    Driver:   27.20.100.9126
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.007350 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 28.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.689 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000926 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.392 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 55.9 MB.
+System memory in use after: 55.9 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1533.
+Total: 3.005500 ms (FindLiveObjects: 0.284500 ms CreateObjectMapping: 0.090800 ms MarkObjects: 2.554100 ms  DeleteObjects: 0.073800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a2c4dac9df7c17871e19a3b74f0e9f') in 0.006812 seconds
+  Import took 0.009895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(ccdf8ee0eb6050340996328c7ec2ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(ccdf8ee0eb6050340996328c7ec2ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022b93718fdfc99c51990831a9e18fcb') in 0.004237 seconds
+  Import took 0.007601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.591265 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(fcf59991b32c3a84f9ed99d79a02dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(fcf59991b32c3a84f9ed99d79a02dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24df146121c1f0fe55a2d6869335bb91') in 0.005066 seconds
+  Import took 0.008330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000924 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(fcf59991b32c3a84f9ed99d79a02dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(fcf59991b32c3a84f9ed99d79a02dca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24df146121c1f0fe55a2d6869335bb91') in 0.003089 seconds
+  Import took 0.005261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.193325 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(386e4ff0b517ada4197717da3894e807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(386e4ff0b517ada4197717da3894e807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8acbf74841e48dd81f6ced3f7d09a7c') in 0.005228 seconds
+  Import took 0.007758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.209583 seconds.
+  path: Assets/Materials/BlueButtton.mat
+  artifactKey: Guid(4edf55a540543c44abad7f208fc6e94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BlueButtton.mat using Guid(4edf55a540543c44abad7f208fc6e94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff4965df697fc1827cc3b484c72d058') in 0.434097 seconds
+  Import took 0.439445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.237230 seconds.
+  path: Assets/Materials/GreenButton.mat
+  artifactKey: Guid(6ec9a5e9eb098b64894828df7e1fc46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/GreenButton.mat using Guid(6ec9a5e9eb098b64894828df7e1fc46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b5b9689e260ed8dd99f713bc5dee058') in 0.019619 seconds
+  Import took 0.023173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.091266 seconds.
+  path: Assets/Materials/RedButton.mat
+  artifactKey: Guid(5cd5976be35142d42b49f6957209751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RedButton.mat using Guid(5cd5976be35142d42b49f6957209751b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d6323b536037d2c1bf2ed7a1b80c300') in 0.022851 seconds
+  Import took 0.026318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.533147 seconds.
+  path: Assets/Materials/YellowButton.mat
+  artifactKey: Guid(78f7b26de8da4ae459b57df89637d151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/YellowButton.mat using Guid(78f7b26de8da4ae459b57df89637d151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee0f372de667357398334359c58a741') in 0.021002 seconds
+  Import took 0.025702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7209.063379 seconds.
+  path: Assets/Scripts/SimonButton.cs
+  artifactKey: Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimonButton.cs using Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad8410c016985d952d5e7cf22c89ae3') in 0.076657 seconds
+  Import took 0.091806 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001621 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.533 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1090 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.7 MB.
+System memory in use after: 59.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1578.
+Total: 2.354000 ms (FindLiveObjects: 0.249800 ms CreateObjectMapping: 0.084800 ms MarkObjects: 1.936400 ms  DeleteObjects: 0.081000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 344.611682 seconds.
+  path: Assets/Scripts/SimonButton.cs
+  artifactKey: Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimonButton.cs using Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3096e235bb7cdd1c379ae3231b4a6c63') in 0.012923 seconds
+  Import took 0.022777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.528100 seconds.
+  path: Assets/Scripts/SimonButton.cs
+  artifactKey: Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimonButton.cs using Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17d52049844a06483cfa5af19696205') in 0.006081 seconds
+  Import took 0.014546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003117 seconds.
+  path: Assets/Scripts/SimonButton.cs
+  artifactKey: Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimonButton.cs using Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17d52049844a06483cfa5af19696205') in 0.006037 seconds
+  Import took 0.009199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1586.603602 seconds.
+  path: Assets/Scripts/SimonButton.cs
+  artifactKey: Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimonButton.cs using Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4678a54d27c2c5e3669be29a98825a') in 0.003776 seconds
+  Import took 0.008729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033825 seconds.
+  path: Assets/Scripts/SimonButton.cs
+  artifactKey: Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimonButton.cs using Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4678a54d27c2c5e3669be29a98825a') in 0.004362 seconds
+  Import took 0.007525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1010.628876 seconds.
+  path: Assets/Scripts/SimonButton.cs
+  artifactKey: Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimonButton.cs using Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e314dd426d523053135c9b0e0c0490') in 0.004321 seconds
+  Import took 0.007394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1220.387824 seconds.
+  path: Assets/Scripts/SimonButton.cs
+  artifactKey: Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimonButton.cs using Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722f6c15e99f7697c0c65619226da703') in 0.011707 seconds
+  Import took 0.019782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006292 seconds.
+  path: Assets/Scripts/SimonButton.cs
+  artifactKey: Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimonButton.cs using Guid(50623084ebdc0c846a626de690a19d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722f6c15e99f7697c0c65619226da703') in 0.005826 seconds
+  Import took 0.013449 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
