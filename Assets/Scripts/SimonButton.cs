@@ -16,7 +16,7 @@ public class SimonButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButttonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
             Debug.Log("Someone pressed the fire button!");
             ray = cam.ScreenPointToRay(Input.mousePosition);
@@ -29,7 +29,7 @@ public class SimonButton : MonoBehaviour
         }
     }
 
-    private IEnumerator ChangeObjColor(Material material)
+    private IEnumerator ChangeObjColor(material)
     {
         Color originalColor = material.color;
 
