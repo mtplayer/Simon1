@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Button : MonoBehaviour
 {
-    [Serializefield]
+    [SerializeField]
     Color buttonColor;
 
     Material material;

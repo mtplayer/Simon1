@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Simon : MonoBehaviour
 {
-    [Serializefield]
+    [SerializeField]
     bool debugMode = false;
         
     List<int> choices = new List<int>();

@@ -27,6 +27,7 @@ public class Player : MonoBehaviour
                 Button button = hit.transform.GetComponent<Button>();
 
                 Debug.Log("<color=green>We hit an object!</color> " + hit.transform.gameObject.name);
+                button.Activate();
             }  
         }
     }

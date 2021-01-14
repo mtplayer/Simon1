@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 5050103}
   - component: {fileID: 5050102}
   - component: {fileID: 5050101}
+  - component: {fileID: 5050099}
   m_Layer: 0
   m_Name: RedButton
   m_TagString: Button
@@ -156,6 +157,19 @@ Transform:
   m_Father: {fileID: 679041666}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5050099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5050097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59fae50717e6cb4e8bc7828f2a0a0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &5050101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -262,6 +276,7 @@ GameObject:
   - component: {fileID: 499448608}
   - component: {fileID: 499448607}
   - component: {fileID: 499448606}
+  - component: {fileID: 499448604}
   m_Layer: 0
   m_Name: BlueButton
   m_TagString: Button
@@ -283,6 +298,19 @@ Transform:
   m_Father: {fileID: 679041666}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &499448604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499448602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59fae50717e6cb4e8bc7828f2a0a0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &499448606
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -564,6 +592,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1197981871}
+  - component: {fileID: 1197981872}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -585,6 +614,18 @@ Transform:
   m_Father: {fileID: 81964328}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1197981872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197981870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fed45aa7acdb5499d52273f90f628a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1204892261
 GameObject:
   m_ObjectHideFlags: 0
@@ -597,6 +638,7 @@ GameObject:
   - component: {fileID: 1204892266}
   - component: {fileID: 1204892265}
   - component: {fileID: 1204892264}
+  - component: {fileID: 1204892263}
   m_Layer: 0
   m_Name: GreenButton
   m_TagString: Button
@@ -618,6 +660,19 @@ Transform:
   m_Father: {fileID: 679041666}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1204892263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204892261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59fae50717e6cb4e8bc7828f2a0a0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1204892264
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -692,6 +747,7 @@ GameObject:
   - component: {fileID: 1405644297}
   - component: {fileID: 1405644296}
   - component: {fileID: 1405644295}
+  - component: {fileID: 1405644294}
   m_Layer: 0
   m_Name: YellowButton
   m_TagString: Button
@@ -713,6 +769,19 @@ Transform:
   m_Father: {fileID: 679041666}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1405644294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405644292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59fae50717e6cb4e8bc7828f2a0a0ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1405644295
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -784,6 +853,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2133630705}
+  - component: {fileID: 2133630706}
   m_Layer: 0
   m_Name: Simon
   m_TagString: Untagged
@@ -805,3 +875,16 @@ Transform:
   m_Father: {fileID: 81964328}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2133630706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133630704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202292d72ac2c7049bbec5dc1a206b95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugMode: 1
